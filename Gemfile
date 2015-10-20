@@ -16,7 +16,11 @@ group :development do
 end
 gem 'bootstrap-sass'
 gem 'high_voltage'
+gem 'google_drive'
+gem 'activerecord-tableless'
+gem 'simple_form', '>= 3.1.0.rc1'
 gem 'thin'
+gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
